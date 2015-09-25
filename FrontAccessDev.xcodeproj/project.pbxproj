@@ -1,0 +1,329 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2CAB484A1BB435B0009F0B09 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2CAB48491BB435B0009F0B09 /* Cocoa.framework */; };
+		2CAB48541BB435B0009F0B09 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2CAB48521BB435B0009F0B09 /* InfoPlist.strings */; };
+		2CAB48561BB435B0009F0B09 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CAB48551BB435B0009F0B09 /* main.m */; };
+		2CAB485A1BB435B0009F0B09 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 2CAB48581BB435B0009F0B09 /* Credits.rtf */; };
+		2CAB485D1BB435B0009F0B09 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CAB485C1BB435B0009F0B09 /* AppDelegate.m */; };
+		2CAB48601BB435B1009F0B09 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2CAB485E1BB435B1009F0B09 /* MainMenu.xib */; };
+		2CAB486E1BB43C39009F0B09 /* TXFrontAccess.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CAB486D1BB43C39009F0B09 /* TXFrontAccess.m */; };
+		2CAB48731BB4E2DC009F0B09 /* TXFrontAccessLocalizedStrings.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2CAB48721BB4E2DC009F0B09 /* TXFrontAccessLocalizedStrings.strings */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2CAB48461BB435B0009F0B09 /* FrontAccessDev.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FrontAccessDev.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2CAB48491BB435B0009F0B09 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		2CAB484C1BB435B0009F0B09 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		2CAB484D1BB435B0009F0B09 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		2CAB484E1BB435B0009F0B09 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		2CAB48511BB435B0009F0B09 /* FrontAccessDev-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FrontAccessDev-Info.plist"; sourceTree = "<group>"; };
+		2CAB48531BB435B0009F0B09 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		2CAB48551BB435B0009F0B09 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2CAB48571BB435B0009F0B09 /* FrontAccessDev-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FrontAccessDev-Prefix.pch"; sourceTree = "<group>"; };
+		2CAB48591BB435B0009F0B09 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		2CAB485B1BB435B0009F0B09 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2CAB485C1BB435B0009F0B09 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2CAB485F1BB435B1009F0B09 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		2CAB486D1BB43C39009F0B09 /* TXFrontAccess.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TXFrontAccess.m; sourceTree = "<group>"; };
+		2CAB486F1BB43C41009F0B09 /* TXFrontAccess.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TXFrontAccess.h; sourceTree = "<group>"; };
+		2CAB48721BB4E2DC009F0B09 /* TXFrontAccessLocalizedStrings.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = TXFrontAccessLocalizedStrings.strings; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2CAB48431BB435B0009F0B09 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2CAB484A1BB435B0009F0B09 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2CAB483D1BB435B0009F0B09 = {
+			isa = PBXGroup;
+			children = (
+				2CAB48701BB43C4A009F0B09 /* TXFrontAccess */,
+				2CAB484F1BB435B0009F0B09 /* FrontAccessDev */,
+				2CAB48481BB435B0009F0B09 /* Frameworks */,
+				2CAB48471BB435B0009F0B09 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2CAB48471BB435B0009F0B09 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2CAB48461BB435B0009F0B09 /* FrontAccessDev.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2CAB48481BB435B0009F0B09 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2CAB48491BB435B0009F0B09 /* Cocoa.framework */,
+				2CAB484B1BB435B0009F0B09 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2CAB484B1BB435B0009F0B09 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2CAB484C1BB435B0009F0B09 /* AppKit.framework */,
+				2CAB484D1BB435B0009F0B09 /* CoreData.framework */,
+				2CAB484E1BB435B0009F0B09 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		2CAB484F1BB435B0009F0B09 /* FrontAccessDev */ = {
+			isa = PBXGroup;
+			children = (
+				2CAB485B1BB435B0009F0B09 /* AppDelegate.h */,
+				2CAB485C1BB435B0009F0B09 /* AppDelegate.m */,
+				2CAB485E1BB435B1009F0B09 /* MainMenu.xib */,
+				2CAB48501BB435B0009F0B09 /* Supporting Files */,
+			);
+			path = FrontAccessDev;
+			sourceTree = "<group>";
+		};
+		2CAB48501BB435B0009F0B09 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2CAB48511BB435B0009F0B09 /* FrontAccessDev-Info.plist */,
+				2CAB48521BB435B0009F0B09 /* InfoPlist.strings */,
+				2CAB48551BB435B0009F0B09 /* main.m */,
+				2CAB48571BB435B0009F0B09 /* FrontAccessDev-Prefix.pch */,
+				2CAB48581BB435B0009F0B09 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2CAB48701BB43C4A009F0B09 /* TXFrontAccess */ = {
+			isa = PBXGroup;
+			children = (
+				2CAB486F1BB43C41009F0B09 /* TXFrontAccess.h */,
+				2CAB486D1BB43C39009F0B09 /* TXFrontAccess.m */,
+				2CAB48721BB4E2DC009F0B09 /* TXFrontAccessLocalizedStrings.strings */,
+			);
+			path = TXFrontAccess;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2CAB48451BB435B0009F0B09 /* FrontAccessDev */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2CAB48631BB435B1009F0B09 /* Build configuration list for PBXNativeTarget "FrontAccessDev" */;
+			buildPhases = (
+				2CAB48421BB435B0009F0B09 /* Sources */,
+				2CAB48431BB435B0009F0B09 /* Frameworks */,
+				2CAB48441BB435B0009F0B09 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FrontAccessDev;
+			productName = FrontAccessDev;
+			productReference = 2CAB48461BB435B0009F0B09 /* FrontAccessDev.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2CAB483E1BB435B0009F0B09 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = tkurita;
+			};
+			buildConfigurationList = 2CAB48411BB435B0009F0B09 /* Build configuration list for PBXProject "FrontAccessDev" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 2CAB483D1BB435B0009F0B09;
+			productRefGroup = 2CAB48471BB435B0009F0B09 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2CAB48451BB435B0009F0B09 /* FrontAccessDev */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2CAB48441BB435B0009F0B09 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2CAB48541BB435B0009F0B09 /* InfoPlist.strings in Resources */,
+				2CAB485A1BB435B0009F0B09 /* Credits.rtf in Resources */,
+				2CAB48601BB435B1009F0B09 /* MainMenu.xib in Resources */,
+				2CAB48731BB4E2DC009F0B09 /* TXFrontAccessLocalizedStrings.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2CAB48421BB435B0009F0B09 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2CAB48561BB435B0009F0B09 /* main.m in Sources */,
+				2CAB485D1BB435B0009F0B09 /* AppDelegate.m in Sources */,
+				2CAB486E1BB43C39009F0B09 /* TXFrontAccess.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		2CAB48521BB435B0009F0B09 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2CAB48531BB435B0009F0B09 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		2CAB48581BB435B0009F0B09 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2CAB48591BB435B0009F0B09 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		2CAB485E1BB435B1009F0B09 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2CAB485F1BB435B1009F0B09 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2CAB48611BB435B1009F0B09 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		2CAB48621BB435B1009F0B09 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		2CAB48641BB435B1009F0B09 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FrontAccessDev/FrontAccessDev-Prefix.pch";
+				INFOPLIST_FILE = "FrontAccessDev/FrontAccessDev-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		2CAB48651BB435B1009F0B09 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FrontAccessDev/FrontAccessDev-Prefix.pch";
+				INFOPLIST_FILE = "FrontAccessDev/FrontAccessDev-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2CAB48411BB435B0009F0B09 /* Build configuration list for PBXProject "FrontAccessDev" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2CAB48611BB435B1009F0B09 /* Debug */,
+				2CAB48621BB435B1009F0B09 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2CAB48631BB435B1009F0B09 /* Build configuration list for PBXNativeTarget "FrontAccessDev" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2CAB48641BB435B1009F0B09 /* Debug */,
+				2CAB48651BB435B1009F0B09 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2CAB483E1BB435B0009F0B09 /* Project object */;
+}

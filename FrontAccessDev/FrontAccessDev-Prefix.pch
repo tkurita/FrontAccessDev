@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'FrontAccessDev' target in the 'FrontAccessDev' project
+//
+
+#ifdef __OBJC__
+    #import <Cocoa/Cocoa.h>
+#endif
