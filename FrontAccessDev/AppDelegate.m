@@ -13,10 +13,24 @@
 
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification
 {
-    //     NSString *bundleid = @"com.apple.dt.Xcode";
+    //NSString *bundleid = @"com.apple.dt.Xcode";
     NSString *bundleid = @"org.gnu.Emacs";
     TXFrontAccess *front_access = [TXFrontAccess frontAccessWithBundleIdentifier:bundleid];
-    
+    NSLog(@"is current application %d", [front_access isCurrentApplication]);    
+    NSURL *url = [front_access documentURL];
+    if (url) {
+        NSLog(@"URL : %@", url);
+    } else {
+        [NSApp presentError:[front_access error]];
+    }
+
+
+}
+
+- (void)applicationWillTerminate:(NSNotification *)aNotification
+{
+    TXFrontAccess *front_access = [TXFrontAccess frontAccessForFrontmostApp];
+    NSLog(@"is current application %d", [front_access isCurrentApplication]);
     NSURL *url = [front_access documentURL];
     if (url) {
         NSLog(@"URL : %@", url);
